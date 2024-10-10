@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstpage</title>
+    <style>
+        body{
+          background-attachment: fixed; 
+          background-size: auto;
+       text-align: justify;
+          
+        }
+        nav {
+          
+        }
+        nav :hover{
+        
+        }
+      
+        nav li{
+    display: inline-flex;
+   
+    text-decoration: none;
+    text-align: end;
+    margin-left: 10px;
+    margin-right: 30px;
+    
+    
+   
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    /* margin-bottom: 80px; */
+    
+}
+
+#video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; 
+}
+#d1{
+ text-align: start;
+/* margin-top: 10px; */
+  }
+  select{
+    background-color: black;
+    color: white;
+  
+  }
+  #f1{
+   padding: 30px;
+    height: 50px;
+  }
+  
+
+
+    </style>
+</head>
+<body>
+
+  <video autoplay muted loop id="video" >
+    <source src="ITC Hotels.html" type="video/mp4">
+  </video>
+  <search>
+  <form>
+   
+  </form>
+</search>
+
+  <div id="d1">
+    <h2>ITC HOTEL GROUP</h2>
+  </div>
+    <nav>
+      <li><a href="ourhotel.html"><em><h3>OUR HOTELS</h3></em></a></li>
+      <li><a href=""><em><h3>OFFERS</h3></em></a></li>
+          <li><a href=""><em><h3>CLUB ITC</h3></em></a></li>
+      <li><a href=""><em><h3>GIFT CARD</h3></em></a></li>
+       <li><a href="" onclick="window.open('login.html','100','width=600 height=500')"><h3><em>LOGIN</em></h3></a></li>
+    </nav>
+    
+  <label for="HOME">PROPERTIES</label><br>
+<select name="HOME" id="home">
+  <option value="home">home</option>
+  <option value="our hotels">our hotels</option>
+  <option value="our brands">our brands</option>
+  <option value="offers">offers</option>
+  <option value="signature dining">signature dining</option>
+  <option value="food delivery">food delivery</option>
+  <option value="loyalty programs">loyalty programs</option>
+  <option value="responsible programs">responsible programs</option>
+  <option value="find reservations">find reservations</option>
+  <option value="destinations">destinations</option>
+  <option value="wellness">wellness</option>
+  <option value="gift card">gift card</option>
+  <option value="sleep boutique">sleep boutique</option>
+  <option value="meetings & events">meetings & events</option>
+  <option value="weddings">weddings</option>
+  <option value="upcoming hotels">upcoming hotels</option>
+  <option value="assistance">assistance</option>
+</select>
+</div>
+<center>
+  <marquee behavior="search" direction="left">
+<div id="f1"> 
+  <input name="fsrch" id=""  placeholder= "city hotels">
+ </center>
+</marquee>
+</div>
+
+
+
+
+</body>
+</html>
